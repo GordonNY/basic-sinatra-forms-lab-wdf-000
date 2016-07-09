@@ -14,7 +14,6 @@ class App < Sinatra::Base
     @pf = params[:pf]
     @sf = params[:sf]
     @center = params[:c]
-    binding.pry
     erb :team
   end
 
